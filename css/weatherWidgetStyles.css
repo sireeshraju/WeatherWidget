@@ -1,0 +1,136 @@
+ body {
+            font-family: Roboto, sans-serif;
+            font-size: 14px;
+            line-height: 20px;
+            font-weight: 400;
+            background: #82BEE6;
+        }
+        .weatherWrapper{
+            width: 50%;
+            margin: 0 auto;
+        }
+        .weather_container {
+            min-height: 180px;
+            box-shadow: 15px 15px 0 rgba(0, 0, 0, 0.3);
+        }
+        .weather-widget {
+            display: block;
+            background: #ffffff;
+            padding: 21px 16px 5px;
+            margin: 10% 10% 0 10%;
+            border-radius: 18px;
+            width: 420px;
+            height: 250px;
+        }
+        .weather-widget .location {
+            float: left;
+            width: 50%;
+            height: 60%;
+            margin-top: 2%;
+        }
+        .weather-widget .location .city {
+            line-height: 0;
+            font-size: 30px;
+            display: block;
+            padding-top: 10px;
+            color:darkblue;
+        }
+        .weather-widget .location .temperature {
+            display: block;
+            padding-left: 5px;
+            color: #000000;
+        }
+        .weather-widget .location .temperature .marks {
+            float: left;
+            position: relative;
+            height: 114px;
+        }
+        .weather-widget .location .temperature .marks .degrees {
+            font-size: 72px;
+            font-weight: 200;
+            position: relative;
+            top: 45px;
+        }
+        .weather-widget .condition {
+            float: right;
+            width: 50%;
+            margin-top: 2%;
+            padding-top: 22px;
+        }
+        .weather-widget .condition .weatherIcon {
+            display: block;
+            width: 62px;
+            height: 62px;
+            margin: 7px auto;
+            background-image: url("http://watchmaker.haz.wiki/_media/official:images:weather_set_1.png?w=200&tok=6da8ae");
+            background-position: 0 0;
+        }
+        .weather-widget .condition .weatherInfo {
+            line-height: 21px;
+            font-size: 20px;
+            color: #000000;
+            font-weight: 300;
+            text-align: center;
+        }
+        .weather-widget .condition .weatherInfo span {
+            padding: 0 0;
+        }
+        .weather-widget .location .temperature .number {
+            line-height: 105px;
+            float: left;
+            font-size: 55px;
+            font-weight: 200;
+            letter-spacing: -3.5px;
+            padding: 9px 0 0;
+            padding-top: 13px;
+        }
+        .dailyWeather {
+            display: block;
+            background: #ffffff;
+            float: left;
+        }
+        .dailyWeather .whichDay {
+            margin: 15px 2px 0 3px;
+            position: relative;
+            display: inline-block;
+        }
+        label {
+            display: inline-block;
+            max-width: 100%;
+            margin-bottom: 5px;
+            font-weight: 700;
+        }
+        .dailyWeather .whichDay label {
+            line-height: 23px;
+            margin: 0;
+            font-size: 14px;
+            color: #000000;
+        }
+        .dailyWeather .whichDay .weatherInfo {
+            display: block;
+            line-height: 30px;
+            font-size: 16px;
+            font-weight: 100;
+            padding-right:10px;
+        }
+        .borderSeparation{
+            border-right: 1px solid #cccccc;
+        }
+        .tooltip {
+            position: relative;
+            display: inline-block;
+        }
+        .tooltip .tooltiptext {
+            visibility: hidden;
+            width: 120px;
+            background-color: rgb(101, 104, 103);
+            color: #fff;
+            text-align: center;
+            padding: 5px 0;
+            border-radius: 6px;
+            position: absolute;
+            z-index: 1;
+        }
+        .tooltip:hover .tooltiptext {
+            visibility: visible;
+        }
